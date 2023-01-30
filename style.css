@@ -10,7 +10,6 @@
     margin-left: 10px;
     padding-top: 10px;
     width: 2%;
-    margin-left: 80px;
 }
 
 main {
@@ -24,7 +23,6 @@ main {
     color: #0A3871;
     margin-top: 90px;
     text-transform: uppercase;
-    margin-left: 55px;
 }
 
 ::placeholder {color: #0A3871;}
@@ -34,51 +32,24 @@ main {
 
 .mensagem {
     background-color: white;
-    background-image: url(/imagens/boneco.png);
+    background-image: url(imagens/boneco.png);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
     color: #0A3871;
-    margin-left: 25px;
-    margin-top: 160px;
-    padding-left: 80px;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
     position: fixed;
 }
 
 .mensagem:focus {
     outline: none;
-    position: absolute;
-    width: 680px;
-    height: 48px;
-    left: 240px;
-    top: 168px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
-    color: #0A3871;
 }
 
 .botoes {
     display: flex;
     margin-top: 18px;
-    align-items: flex-start;
-    padding: 24px;
-    gap: 8px;
-}
-
-.Rectangle {
-    position: absolute;
-    width: 480px;
-    height: 800px;
-    left: 1000px;
-    top: 40px;
-    background: #FFFFFF;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
-    position: absolute;
 }
 
 .btnDesencriptar {
@@ -89,8 +60,7 @@ main {
     cursor: pointer;
     height: 67px;
     margin-left: 30px;
-    width: 340px;
-    margin-top: 300px;
+    width: 328px;
 
 }
 
@@ -101,9 +71,7 @@ main {
     color: white;
     cursor: pointer;
     height: 67px;
-    width: 340px;
-    margin-left: 30px;
-    margin-top: 300px;
+    width: 328px;
 }
 
 .btn-copiar {
@@ -112,31 +80,26 @@ main {
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 80px;
-    margin-top: 685px;
+    margin-left: 108px;
+    margin-top: 372px;
     position: absolute;
     width: 336px;
 }
 
 .informacao {
-    position: absolute;
-    width: 228px;
-    height: 18px;
     color: #495057;
-    margin-left: 80px;
-    margin-top: 300px;
-    line-height: 150%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
+    margin-left: 24px;
 }
 
 .Vector {
+    
     height: 16px;
     width: 16px;
-    margin-left: 50px;
-    margin-top: 300px;
-    border-radius: 0px;
+
+    border-radius: 24px;
+
     position: absolute;
+
+    background: #495057;
 }
